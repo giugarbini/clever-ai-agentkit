@@ -1,3 +1,13 @@
+> ## 🎥 Versión de Giuliana Garbini · material del video
+> Este repositorio es mi copia (fork) del **Agent Kit de [Basdonax AI](https://github.com/fcori47/basdonax-ai-agentkit)**, que usé en el video
+> **[Cómo crear un asistente de IA para WhatsApp (paso a paso)](https://www.youtube.com/@giuliana.garbini)**.
+> El código es del proyecto original (licencia MIT). Lo que sumé yo está en la carpeta
+> **[`material-del-video`](material-del-video)**: una plantilla de instrucciones para el asistente y una lista de datos a completar.
+>
+> Canal: [@giuliana.garbini](https://www.youtube.com/@giuliana.garbini)
+
+---
+
 <p align="center">
   <img src="docs/img/portada.png" alt="Agent Kit de Basdonax AI: tu agente de IA en WhatsApp, listo para producción y para lo que cobra Meta" width="100%">
 </p>
