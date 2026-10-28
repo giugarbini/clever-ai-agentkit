@@ -1,0 +1,37 @@
+# Lista de datos que hay que completar para que el asistente ande.
+# Copiá este archivo como `.env` y completá los valores con los TUYOS.
+# Los valores de acá son de ejemplo: no son reales.
+#
+# ⚠️ NUNCA subas tu `.env` a GitHub. Agregá `.env*` a tu `.gitignore` y dejá solo este `.env.example`.
+
+# --- 1. Qué modelo de IA usa --------------------------------------------
+# Elegí un proveedor: claude | openai | gemini
+PROVEEDOR=openai
+# La clave se crea en la plataforma del proveedor (y hay que cargar crédito).
+OPENAI_API_KEY=tu_clave_de_openai
+MODELO_OPENAI=el_modelo_que_elijas
+
+# --- 2. Dónde se guardan las conversaciones -----------------------------
+# test (un archivo en tu compu) | produccion (una base de datos Postgres)
+MODO=produccion
+# Formato: postgresql://usuario:clave@servidor:puerto/base
+POSTGRES_DSN=postgresql://usuario:clave@tu-servidor:5432/nombre_de_la_base
+
+# --- 3. Cómo se comporta ------------------------------------------------
+# Cuántos mensajes recuerda (el tutorial recomienda 20)
+MEMORIA_MENSAJES=20
+# Cuántos segundos espera antes de contestar, para juntar mensajes seguidos (el tutorial usa 60)
+BUFFER_SEGUNDOS=60
+
+# --- 4. Chatwoot (la bandeja de conversaciones) -------------------------
+CHATWOOT_URL=https://demo-chatwoot.tudominio.com
+# Chatwoot → abajo a la izquierda → Ajustes del perfil → token de acceso
+CHATWOOT_TOKEN=tu_token_de_chatwoot
+# Mirá la dirección de Chatwoot: dice account/1/... → el ID es 1
+CHATWOOT_CUENTA_ID=1
+
+# --- 5. WhatsApp (Meta) --------------------------------------------------
+# ID del teléfono: lo da Meta / Postman (paso de activar el número)
+WHATSAPP_PHONE_NUMBER_ID=id_del_telefono
+# Token del usuario del sistema de Meta
+WHATSAPP_TOKEN=token_de_meta
